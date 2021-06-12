@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate {
+class ViewController: UIViewController {
     @IBOutlet weak private var field1: UITextField!
     @IBOutlet weak private var field2: UITextField!
     @IBOutlet weak private var field3: UITextField!
