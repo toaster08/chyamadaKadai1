@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -77,12 +77,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="field1" destination="osy-wG-KOf" id="kNF-zm-i7Q"/>
-                        <outlet property="field2" destination="SBj-5z-LP1" id="LRN-Aq-9LL"/>
-                        <outlet property="field3" destination="2fh-Yb-rEk" id="wyH-jm-X1K"/>
-                        <outlet property="field4" destination="gUy-s4-wF6" id="Ogf-rw-wQt"/>
-                        <outlet property="field5" destination="3cU-Ca-r4j" id="mH9-4A-E56"/>
-                        <outlet property="result" destination="Kpz-2C-JI7" id="Zy7-JP-ire"/>
+                        <outlet property="resultLabel" destination="Kpz-2C-JI7" id="yxt-TI-bMd"/>
+                        <outlet property="textField1" destination="osy-wG-KOf" id="CCo-YC-Lbo"/>
+                        <outlet property="textField2" destination="SBj-5z-LP1" id="rwu-eV-dHV"/>
+                        <outlet property="textField3" destination="2fh-Yb-rEk" id="IiQ-Z0-bOu"/>
+                        <outlet property="textField4" destination="gUy-s4-wF6" id="Ieh-eC-bmb"/>
+                        <outlet property="textField5" destination="3cU-Ca-r4j" id="SCP-Ur-xpz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
