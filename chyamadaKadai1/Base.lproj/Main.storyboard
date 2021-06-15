@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -59,9 +59,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yt9-hk-s6Q">
                                 <rect key="frame" x="67" y="329" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qni-TR-LD2"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -78,16 +75,17 @@
                     </view>
                     <connections>
                         <outlet property="resultLabel" destination="Kpz-2C-JI7" id="yxt-TI-bMd"/>
+                        <outlet property="sumButton" destination="Yt9-hk-s6Q" id="Wh9-rl-mca"/>
                         <outlet property="textField1" destination="osy-wG-KOf" id="CCo-YC-Lbo"/>
                         <outlet property="textField2" destination="SBj-5z-LP1" id="rwu-eV-dHV"/>
                         <outlet property="textField3" destination="2fh-Yb-rEk" id="IiQ-Z0-bOu"/>
                         <outlet property="textField4" destination="gUy-s4-wF6" id="Ieh-eC-bmb"/>
-                        <outlet property="textField5" destination="3cU-Ca-r4j" id="SCP-Ur-xpz"/>
+                        <outlet property="textField5" destination="3cU-Ca-r4j" id="01c-34-jFA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="141" y="103"/>
+            <point key="canvasLocation" x="-523" y="174"/>
         </scene>
     </scenes>
     <resources>
